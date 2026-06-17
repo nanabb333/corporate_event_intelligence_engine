@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Corporate Event Intelligence Engine</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="topbar" aria-label="Product">
+        <div class="brand">Corporate Event Intelligence</div>
+        <div class="status">Sprint 2 Demo</div>
+      </nav>
+      <div class="hero-grid">
+        <section class="hero-copy" aria-labelledby="page-title">
+          <p class="eyebrow">Historical Analog Retrieval</p>
+          <h1 id="page-title">Corporate Event Intelligence Engine</h1>
+          <p class="subtitle">
+            Evidence-based historical analog retrieval and analyst-style synthesis for corporate events.
+          </p>
+        </section>
+        <aside class="boundary" aria-label="Product boundary">
+          <h2>Product Boundary</h2>
+          <ul>
+            <li>Historical analogs only</li>
+            <li>Descriptive analysis only</li>
+            <li>No forecasts</li>
+            <li>No investment advice</li>
+          </ul>
+        </aside>
+      </div>
+    </header>
+
+    <main>
+      <section class="question-band" aria-labelledby="demo-question">
+        <div>
+          <p class="section-kicker">Demo Question</p>
+          <h2 id="demo-question">What usually happens after an abrupt CEO departure?</h2>
+        </div>
+        <div class="run-meta" id="run-meta">Loading evidence base...</div>
+      </section>
+
+      <section class="layout-grid">
+        <div class="content-stack">
+          <section class="panel" aria-labelledby="analogs-title">
+            <div class="section-heading">
+              <div>
+                <p class="section-kicker">Retrieved Evidence</p>
+                <h2 id="analogs-title">Historical Analogs</h2>
+              </div>
+              <span class="count-pill" id="analog-count">0 cases</span>
+            </div>
+            <div class="analog-list" id="analog-list"></div>
+          </section>
+
+          <section class="panel" aria-labelledby="pathways-title">
+            <div class="section-heading">
+              <div>
+                <p class="section-kicker">Pattern Layer</p>
+                <h2 id="pathways-title">Observed Pathways</h2>
+              </div>
+            </div>
+            <div class="pathway-grid" id="pathway-grid"></div>
+          </section>
+
+          <section class="panel" aria-labelledby="brief-title">
+            <div class="section-heading">
+              <div>
+                <p class="section-kicker">Generated Output</p>
+                <h2 id="brief-title">Analyst Notes</h2>
+              </div>
+            </div>
+            <article class="brief" id="analyst-brief"></article>
+          </section>
+        </div>
+
+        <aside class="side-stack">
+          <section class="panel compact" aria-labelledby="evidence-title">
+            <div class="section-heading">
+              <div>
+                <p class="section-kicker">Source Trail</p>
+                <h2 id="evidence-title">Evidence Base</h2>
+              </div>
+            </div>
+            <div class="evidence-list" id="evidence-list"></div>
+          </section>
+
+          <section class="panel compact" aria-labelledby="limits-title">
+            <div class="section-heading">
+              <div>
+                <p class="section-kicker">Guardrails</p>
+                <h2 id="limits-title">Limitations</h2>
+              </div>
+            </div>
+            <p>
+              This product summarizes historical cases and observed pathways.
+              It does not predict future outcomes.
+            </p>
+            <ul class="limit-list" id="limit-list"></ul>
+          </section>
+        </aside>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

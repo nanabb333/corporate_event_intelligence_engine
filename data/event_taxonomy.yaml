@@ -1,0 +1,52 @@
+event_family: corporate_events
+scope: Sprint 1 CEO Departure Case Library
+non_goals:
+  - forecasting future company performance
+  - issuing investment recommendations
+  - producing price targets
+  - ranking securities
+  - building retrieval, dashboards, similarity scoring, or LLM integration
+
+event_types:
+  ceo_departure:
+    definition: >
+      A public-company leadership event in which the chief executive officer
+      leaves, is removed, retires, resigns, or is replaced.
+    sprint_1_status: in_scope
+    required_fields:
+      - event_id
+      - company
+      - ticker
+      - sector
+      - event_type
+      - event_date
+      - departure_type
+      - context
+      - observed_pathway
+      - source_url
+      - analyst_note
+    departure_types:
+      planned_succession:
+        definition: Orderly leadership transition announced with continuity language or formal succession process.
+      abrupt_resignation:
+        definition: Unexpected CEO exit with limited transition period or after rapid stakeholder pressure.
+      founder_stepdown:
+        definition: Founder CEO leaves the CEO role while company identity remains closely linked to founder leadership.
+      founder_return:
+        definition: Founder or former CEO returns to the CEO role during a leadership transition or reset.
+      activist_pressure:
+        definition: CEO departure occurs amid explicit investor, activist, or board pressure for change.
+      crisis_linked_departure:
+        definition: CEO exits during a scandal, operational crisis, safety crisis, regulatory crisis, or reputational crisis.
+      performance_driven_replacement:
+        definition: Board replaces or transitions CEO amid execution, strategy, growth, margin, or competitive pressure.
+      conduct_related_departure:
+        definition: CEO exits after board review, policy violation, misconduct finding, or personal-conduct controversy.
+
+future_event_types:
+  earnings_miss:
+    sprint_1_status: out_of_scope
+    note: Candidate for Sprint 2 after CEO departure evidence base is stable.
+  product_recall:
+    sprint_1_status: out_of_scope
+    note: Candidate for Sprint 2 or Sprint 3 after source and severity conventions are defined.

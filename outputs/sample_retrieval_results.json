@@ -1,0 +1,244 @@
+{
+  "question": "What usually happens after an abrupt CEO departure?",
+  "query_profile": {
+    "event_type": "CEO departure",
+    "departure_type": "abrupt resignation",
+    "sector": "",
+    "context": "abrupt resignation CEO departure investor pressure board pressure governance culture controversy crisis founder scrutiny",
+    "observed_pathway": "governance repair"
+  },
+  "scoring_framework": {
+    "departure_type": "0-35 points for exact or related departure-type signals",
+    "sector": "0-15 points when a sector is specified and matches",
+    "context": "0-25 points from deterministic keyword overlap",
+    "observed_pathway": "0-25 points for exact or pathway-family match"
+  },
+  "retrieved_cases": [
+    {
+      "event_id": "CEODEP007",
+      "company": "Uber",
+      "ticker": "UBER",
+      "sector": "Technology",
+      "event_date": "2017-06-20",
+      "departure_type": "abrupt resignation under investor pressure",
+      "observed_pathway": "governance repair",
+      "source_url": "https://www.nytimes.com/2017/06/21/technology/uber-ceo-travis-kalanick.html",
+      "analyst_note": "The case is a core example of abrupt founder exit linked to governance repair, cultural remediation, and board pressure.",
+      "score": 85.0,
+      "score_components": {
+        "departure_type": 35.0,
+        "sector": 0.0,
+        "context": 25.0,
+        "observed_pathway": 25.0
+      },
+      "selection_reasons": [
+        "departure type directly matches abrupt resignation",
+        "context overlaps on abrupt, board, crisis, culture, founder, governance",
+        "observed pathway exactly matches governance repair"
+      ]
+    },
+    {
+      "event_id": "CEODEP015",
+      "company": "WeWork",
+      "ticker": "WE",
+      "sector": "Real Estate",
+      "event_date": "2019-09-24",
+      "departure_type": "founder resignation under board and investor pressure",
+      "observed_pathway": "governance repair",
+      "source_url": "https://www.reuters.com/article/us-wework-ipo-ceo-idUSKBN1W91D5",
+      "analyst_note": "The case is a strong analog for founder-led companies where governance, disclosure, and capital-market scrutiny force leadership restructuring.",
+      "score": 63.5,
+      "score_components": {
+        "departure_type": 14.0,
+        "sector": 0.0,
+        "context": 24.5,
+        "observed_pathway": 25.0
+      },
+      "selection_reasons": [
+        "departure type shares abrupt or pressure-driven exit",
+        "context overlaps on board, founder, governance, investor, pressure, resignation",
+        "observed pathway exactly matches governance repair"
+      ]
+    },
+    {
+      "event_id": "CEODEP014",
+      "company": "Papa John's",
+      "ticker": "PZZA",
+      "sector": "Consumer Discretionary",
+      "event_date": "2017-12-21",
+      "departure_type": "founder resignation under reputational pressure",
+      "observed_pathway": "reputational repair",
+      "source_url": "https://www.axios.com/2018/01/05/papa-johns-founder-to-step-down-as-ceo-after-nfl-comments-1515110787",
+      "analyst_note": "The case captures a founder CEO exit where brand reputation and public controversy drove leadership transition before further governance changes followed.",
+      "score": 51.0,
+      "score_components": {
+        "departure_type": 14.0,
+        "sector": 0.0,
+        "context": 21.0,
+        "observed_pathway": 16.0
+      },
+      "selection_reasons": [
+        "departure type shares abrupt or pressure-driven exit",
+        "context overlaps on controversy, crisis, founder, governance, pressure, resignation",
+        "observed pathway belongs to the same accountability or repair family"
+      ]
+    },
+    {
+      "event_id": "CEODEP013",
+      "company": "Hewlett-Packard",
+      "ticker": "HPQ",
+      "sector": "Technology",
+      "event_date": "2010-08-06",
+      "departure_type": "conduct-related resignation",
+      "observed_pathway": "governance enforcement",
+      "source_url": "https://www.wired.com/2010/08/hp-ceo-mark-hurd-resigns-unexpectedly-amid-scandal/",
+      "analyst_note": "The case is an early high-profile example of CEO departure following board investigation, with the observed pathway centered on governance process and interim leadership.",
+      "score": 47.5,
+      "score_components": {
+        "departure_type": 14.0,
+        "sector": 0.0,
+        "context": 17.5,
+        "observed_pathway": 16.0
+      },
+      "selection_reasons": [
+        "departure type shares abrupt or pressure-driven exit",
+        "context overlaps on board, departure, governance, pressure, resignation",
+        "observed pathway belongs to the same accountability or repair family"
+      ]
+    },
+    {
+      "event_id": "CEODEP009",
+      "company": "Wells Fargo",
+      "ticker": "WFC",
+      "sector": "Financials",
+      "event_date": "2016-10-12",
+      "departure_type": "crisis-linked resignation",
+      "observed_pathway": "reputational repair",
+      "source_url": "https://newsroom.wf.com/English/news-releases/news-release-details/2016/John-Stumpf-to-Retire-from-Wells-Fargo-Board-of-Directors-Names-Tim-Sloan-CEO/default.aspx",
+      "analyst_note": "The case shows CEO departure as an accountability signal following a misconduct scandal with continuing governance and control remediation.",
+      "score": 47.5,
+      "score_components": {
+        "departure_type": 14.0,
+        "sector": 0.0,
+        "context": 17.5,
+        "observed_pathway": 16.0
+      },
+      "selection_reasons": [
+        "departure type shares abrupt or pressure-driven exit",
+        "context overlaps on crisis, departure, governance, pressure, resignation",
+        "observed pathway belongs to the same accountability or repair family"
+      ]
+    },
+    {
+      "event_id": "CEODEP010",
+      "company": "McDonald's",
+      "ticker": "MCD",
+      "sector": "Consumer Discretionary",
+      "event_date": "2019-11-03",
+      "departure_type": "conduct-related termination",
+      "observed_pathway": "conduct accountability",
+      "source_url": "https://www.theguardian.com/business/2019/nov/03/mcdonalds-chief-executive-steve-easterbrook-relationship-employee",
+      "analyst_note": "The case is useful for separating personal-conduct termination from operating-performance termination; the pathway centers on governance enforcement and leadership continuity.",
+      "score": 26.5,
+      "score_components": {
+        "departure_type": 0.0,
+        "sector": 0.0,
+        "context": 10.5,
+        "observed_pathway": 16.0
+      },
+      "selection_reasons": [
+        "context overlaps on board, governance, pressure",
+        "observed pathway belongs to the same accountability or repair family"
+      ]
+    },
+    {
+      "event_id": "CEODEP004",
+      "company": "Twitter",
+      "ticker": "TWTR",
+      "sector": "Communication Services",
+      "event_date": "2021-11-29",
+      "departure_type": "founder stepdown",
+      "observed_pathway": "founder transition",
+      "source_url": "https://www.prnewswire.com/news-releases/jack-dorsey-steps-down-as-twitter-ceo-board-unanimously-appoints-cto-parag-agrawal-as-ceo-301433589.html",
+      "analyst_note": "The case separates founder departure from crisis departure: the transition emphasized internal succession and governance continuity despite prior external pressure.",
+      "score": 24.5,
+      "score_components": {
+        "departure_type": 0.0,
+        "sector": 0.0,
+        "context": 24.5,
+        "observed_pathway": 0.0
+      },
+      "selection_reasons": [
+        "context overlaps on crisis, departure, founder, governance, investor, pressure"
+      ]
+    }
+  ],
+  "observed_pathways": [
+    {
+      "pathway": "governance repair",
+      "case_count": 2,
+      "cases": [
+        "CEODEP007",
+        "CEODEP015"
+      ],
+      "companies": [
+        "Uber",
+        "WeWork"
+      ],
+      "interpretation": "Leadership change is part of repairing governance, culture, controls, or investor confidence."
+    },
+    {
+      "pathway": "reputational repair",
+      "case_count": 2,
+      "cases": [
+        "CEODEP014",
+        "CEODEP009"
+      ],
+      "companies": [
+        "Papa John's",
+        "Wells Fargo"
+      ],
+      "interpretation": "The company uses leadership transition as one part of restoring public, customer, or stakeholder trust."
+    },
+    {
+      "pathway": "conduct accountability",
+      "case_count": 1,
+      "cases": [
+        "CEODEP010"
+      ],
+      "companies": [
+        "McDonald's"
+      ],
+      "interpretation": "The departure centers on policy enforcement and leadership standards."
+    },
+    {
+      "pathway": "founder transition",
+      "case_count": 1,
+      "cases": [
+        "CEODEP004"
+      ],
+      "companies": [
+        "Twitter"
+      ],
+      "interpretation": "Founder leadership gives way to a successor while governance continuity remains a central issue."
+    },
+    {
+      "pathway": "governance enforcement",
+      "case_count": 1,
+      "cases": [
+        "CEODEP013"
+      ],
+      "companies": [
+        "Hewlett-Packard"
+      ],
+      "interpretation": "The board emphasizes investigation, process, and governance standards after conduct concerns."
+    }
+  ],
+  "limitations": [
+    "descriptive historical retrieval only",
+    "no forecasting",
+    "no investment recommendations",
+    "no stock prediction",
+    "no price targets"
+  ]
+}

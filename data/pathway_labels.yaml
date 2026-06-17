@@ -1,0 +1,91 @@
+pathway_labels:
+  continuity_succession:
+    definition: Known successor takes over and the company emphasizes leadership continuity.
+    typical_evidence:
+      - board succession statement
+      - named internal successor
+      - continuity language in announcement
+
+  strategic_reset:
+    definition: CEO transition is paired with a broader review of strategy, business model, or operating priorities.
+    typical_evidence:
+      - formal search or new mandate
+      - strategic repositioning language
+      - management commentary about future direction
+
+  portfolio_reset:
+    definition: Transition occurs alongside pressure to reshape business mix, assets, capital allocation, or corporate structure.
+    typical_evidence:
+      - portfolio review language
+      - pressure on business units or capital allocation
+      - restructuring or divestiture context
+
+  founder_transition:
+    definition: Founder leaves the CEO role and the company shifts to non-founder executive leadership.
+    typical_evidence:
+      - founder remains influential or on board
+      - internal successor named
+      - governance continuity emphasized
+
+  interim_founder_return:
+    definition: Founder or former CEO returns temporarily to bridge a succession gap or stabilize strategic direction.
+    typical_evidence:
+      - interim CEO title
+      - search for permanent successor
+      - board language about transition stability
+
+  board_led_reset:
+    definition: Board replaces CEO and installs a successor to reset leadership credibility, execution, or stakeholder confidence.
+    typical_evidence:
+      - board-led appointment
+      - predecessor or external executive returns
+      - language about confidence, strategy, or execution
+
+  governance_repair:
+    definition: Leadership change follows governance, culture, disclosure, or investor-confidence problems.
+    typical_evidence:
+      - investor pressure
+      - board governance review
+      - culture or control remediation
+
+  crisis_accountability:
+    definition: CEO departure occurs during a safety, operational, regulatory, or public crisis and signals accountability.
+    typical_evidence:
+      - crisis timeline
+      - regulator or customer pressure
+      - board statement about restoring confidence
+
+  reputational_repair:
+    definition: CEO exit follows brand, misconduct, or public-trust damage and is part of credibility restoration.
+    typical_evidence:
+      - public controversy
+      - brand pressure
+      - stakeholder apology or remediation
+
+  conduct_accountability:
+    definition: CEO exits because of policy violation, misconduct finding, or personal-conduct issue.
+    typical_evidence:
+      - board investigation
+      - policy violation language
+      - immediate replacement or interim control
+
+  operational_reset:
+    definition: CEO replacement is tied to execution, technology, manufacturing, competitive, or operating-performance concerns.
+    typical_evidence:
+      - operating challenge context
+      - successor with operational credentials
+      - board language about execution
+
+  strategic_acceleration:
+    definition: CEO transition is framed as a need to move faster on strategic priorities.
+    typical_evidence:
+      - transformation language
+      - industry disruption context
+      - board emphasis on pace and execution
+
+  governance_enforcement:
+    definition: Board enforces governance standards following investigation or compliance concerns.
+    typical_evidence:
+      - board investigation
+      - interim governance process
+      - policy or controls language
