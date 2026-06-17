@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Corporate Event Intelligence Engine
 
 Evidence-based historical analog retrieval and analyst-style synthesis for corporate events.
@@ -117,3 +118,7 @@ For the current demo question, sector is neutral because the question does not s
 ## Limitations
 
 This product summarizes historical cases and observed pathways. It does not predict future outcomes, recommend investments, issue ratings, or produce price targets.
+=======
+# corporate_event_intelligence_engine
+Evidence-based corporate event intelligence engine using historical analogs, observed pathways, and analyst-style synthesis.
+>>>>>>> c9ae978f832fb8f5da2e47904edf11411c3cb734
